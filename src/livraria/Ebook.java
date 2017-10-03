@@ -12,7 +12,7 @@ public class Ebook extends Livro{
 			return false;
 		}
 		System.out.println("aplicando desconto no Ebook");
-		return super.aplicaDescontoDe(porcentagem);
+		return aplicaDescontoDe(porcentagem);
 	}
 	
 	
