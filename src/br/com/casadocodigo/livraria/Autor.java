@@ -37,4 +37,11 @@ public class Autor {
 		System.out.println("Nome " + email);
 		System.out.println("Nome " + cpf);
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Autor)) return false;
+		Autor outro = (Autor) obj;
+		return this.nome.equals(outro.nome);
+	}
 }

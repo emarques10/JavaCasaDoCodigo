@@ -68,7 +68,7 @@ public abstract class Livro implements Produto {
 		System.out.println("Valor: "+valor);
 		System.out.println("ISBN: "+isbn);
 		if (this.temAutor()) {
-			autor.mostrarDetalhes();
+			autor.toString();
 		}
 		System.out.println("--");
 	}
